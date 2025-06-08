@@ -1,31 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <meta description="">
-    <link rel="stylesheet" href="./assets/css/style.css"> 
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-<header>
-<navigation></navigation>  
-</header>
- 
-<Main>
-<section id="About">
-</section>
+    <navigation>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="Contact">Let's talk</a></li>
+    </navigation>
+    <header>
+        <h1>Where Business Meets Code</h1>
+        <p>Full-stack development with 20 years of B2B marketing know-how behind every build.</p>
 
-<section id="Projects">
-</section>
+    </header>
 
-<section id="Contact">
-</section>
-</Main>
+    <Main>
+        <section id="About">
+            <h1>A marketer who builds</h1>
+            <p>My name is Ana&#239;s. I am a hands-on B2B marketer turned technical problem-solver.</p>
 
-<footer>
-</footer>
-    
-    
+            <p>With 20 years of experience helping startups and SMEs grow, from building marketing engines to leading
+                cross-functional teams, I've always worked at the intersection of strategy, product, and execution.
+                Now, I'm building on that foundation by adding full-stack development to my toolkit.</p>
+
+            <p>My approach is pragmatic and user-first.
+                I don't just make things look good—I make sure they work for the people using them.
+                Whether it's designing a website, mapping a workflow, or automating what slows teams down, I combine
+                commercial insight, UX instinct, and technical skills to build tools that deliver in the real world.</p>
+
+            <p>I collaborate with clients to create solutions that fit their business goals, work within their budget,
+                and are simple enough to manage without ongoing help.</p>
+
+        </section>
+
+        <section id="Projects">
+            <h1>Designed to Deliver</h1>
+            <div>
+                <h2>WF basketball - Visual mockups</h2>
+                <p>Figma</p>
+            </div>
+            <img src="./assets/images/FlamesBasketball.png">
+
+            <div>
+                <h2>Deepflow Massage - Website Redesign</h2>
+                <p>Fabrik.io</p>
+                <img src="./assets/images/DeepFlowMassage.PNG">
+            </div>
+
+            <div>
+                <h2>Firefinch Marketing - Website Build</h2>
+                <p>Webflow</p>
+                <img src="./assets/images/FirefinchMarketingWeb.PNG">
+
+            </div>
+
+        </section>
+
+        <section id="Contact">
+            <h1>Let's talk</h1>
+            <p>Ready to turn your idea into something real? Drop me a message.</p>
+        <<form action="submit.php" method="post">
+        
+        <label for="name">Fullname:</label>
+        <input type="text" name="name" id="name">
+        <br />
+         <Label for="company">Company</Label> 
+<input type="text" id="company" name="company">
+<br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br />
+         <label for="tel">Tel:</label>
+        <input type="tel" name="tel" id="tel">
+        <br />
+       
+
+<p><b>How can I help?</b></p> 
+
+<input type="radio" id="campaign delivery" name="services" value="Website design/redesign">
+  <label for="web design">Campaign Delivery</label><br />
+  <input type="radio" id="website build" name="services" value="Website build">
+  <label for="website build">Website build</label><br />
+  <input type="radio" id="marketing strategy" name="services" value="Marketing strategy">
+  <label for="marketing strategy">Marketing Strategy</label><br />
+
+  <label for="deadline">Project Deadline</label>
+  <input type="datetime-local">
+<br /><br />
+<label for="description">Provide a short description of your project.</label><br>
+<textarea id="description" name="description" rows="4" cols="50"></textarea>
+
+<br>
+  <input type="button" value="Request a chat">
+
+
+        <textarea>
+
+        <br />
+        <input type="button" value="Make an enquiry">
+
+        
+        
+        </section>
+    </Main>
+
+    <footer>
+
+    </footer>
+
+
 </body>
+
 </html>
