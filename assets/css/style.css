@@ -4,25 +4,51 @@
 }
 
 .largecontainer {
-width: 100%;
+    width: 100%;
 }
 
-.insidepagecontainer {
-width: 80%;
-margin: auto;
+.mediumcontainer {
+    width: 80%;
+    margin: auto;
 }
+
+.smallcontainer {
+    width:64%;
+    margin: auto;
+}
+
+.small {
+    font-size: 0.75rem;
+}
+
+p {
+    line-height: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+h1 {
+    font-size: 2.1rem;
+    padding: 0.15rem;
+    color: purple
+}
+
+h2 {
+    font-size: 1.45rem;
+    color: green;
+}
+
 
 
 header {
-background: #030303;
-background: linear-gradient(180deg, rgba(3, 3, 3, 1) 0%, rgba(20, 21, 37, 1) 37%, rgba(34, 37, 66, 1) 77%);
-color: white;
+    background: #030303;
+    background: linear-gradient(180deg, rgba(3, 3, 3, 1) 0%, rgba(20, 21, 37, 1) 37%, rgba(34, 37, 66, 1) 77%);
+    color: white;
 }
 
 nav {
-padding-top: 3rem;
-margin-left: 60%px;
-width: 40%;
+    padding-top: 3rem;
+    margin-left: 60%px;
+    width: 40%;
 }
 
 nav li {
@@ -32,70 +58,122 @@ nav li {
 }
 
 nav a {
-text-decoration: none;
-color: white;
-background-color: transparent;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
 }
 
 
 .leftbox {
     display: inline-block;
     width: 38%;
-    vertical-align: middle;
+    vertical-align: top;
 
 }
 
 .rightbox {
     display: inline-block;
-    width:60%;
+    width: 60%;
     vertical-align: top;
+    padding-top:1.5rem;
 }
 
 
 #Projects {
-border: solid 5px rgba(34, 37, 66, 1);
-border-width: 5px 0 5px 0;
-padding: 25px 0
+    padding: 25px 0;
 }
 
 #Projects img {
-width: 90%;
+    width: 90%;
 
 }
 
 
 .projectleft {
- display: inline-block;
- width: 32%;  
- margin-right: 1%
+    display: inline-block;
+    width: 31%;
+     vertical-align: top;
+     margin-left:2%;
+
 }
 
 .projectmiddle {
- display: inline-block;
- width: 32%;  
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    margin: 0 2%;
 
 }
 
 .projectright {
- display: inline-block;
- width: 32%; 
+    display: inline-block;
+    width: 31%;
+ vertical-align: top;
+}
 
+#Contact {
+text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+   padding-top:1.7rem;
+   padding-bottom: 0.8rem;
+   margin-bottom:1.2rem;   
+}
+
+form.enquiry {
+  text-align: left;
+  margin: 0 auto;
+  width: 95%
+}
+
+form.enquiry label, p {
+    display: block;
+    font-size: 0.9rem;
+    padding:0.3rem 0;
+    margin-top:1.2rem;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+ width: 80%;
+margin-left: 0;
+ height: 1.5rem;
+ border: 0px;
+ border-radius: 4px;
+}
+
+input[type=radio]{
+    display: inline;
+}
+
+input[type="datetime-local"]{
+border: 0px;    
+font-size: 0.8rem;
+color: goldenrod;
+}
+
+input[type=button] {
+  background-color: #aa0481;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem 0.8rem;
+  text-decoration: none;
+  margin: 2rem auto;
+  cursor: pointer;
+  display:block;
+}
+
+textarea {
+  width: 100%;
+  height: 5rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize:vertical;
 }
 
 
-
-p {
-    line-height: 1.4rem;
-    margin-bottom: 0.8rem;
-}
-
-h1 {
-    font-size: 2.1rem;
-}
-
-h2 {
-    font-size: 1.7rem;
-}
 
 footer {
     background-color: black;
