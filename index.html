@@ -19,39 +19,44 @@
                 <li><a href="#Contact">Let's talk</a></li>
             </nav>
             <div class="leftbox">
-            <h1>Where Business Meets Code</h1>
-            <p>Full-stack development with 20 years of B2B marketing know-how behind every build.</p>
+                <h1>Where Business Meets Code</h1>
+                <p>Full-stack development with 20 years of B2B marketing know-how behind every build.</p>
             </div>
-            <div class="rightbox"><p>Image placeholder</p>
+            <div class="rightbox">
+                <p>Image placeholder</p>
             </div>
         </header>
     </div>
-    <Main class="insidepagecontainer">
-        <section id="About">
+    <Main>
+        <section id="About" class="mediumcontainer">
             <div class="leftbox">
-            <h1>A marketer who builds</h1></div>
+                <h1>A marketer who builds</h1>
+            </div>
             <div class="rightbox">
-            <p>My name is Ana&#239;s. I am a hands-on B2B marketer turned technical problem-solver.</p>
+                <p>My name is Ana&#239;s. I am a hands-on B2B marketer turned technical problem-solver.</p>
 
-            <p>I've spent 20 years helping startups and SMEs grow, building marketing engines and leading teams. I bring
-                strategy, product knowledge, and execution together.
-                Full-stack development is my latest skill. </p>
-            <p>My approach is practical and user-focused. Whether it's designing a website, mapping a workflow, or
-                automating processes, I combine business insight, UX thinking, and technical skills to build things that
-                work.
-            <p>I work with clients to create what fits their business goals and budget. </p>
-</div>
+                <p>I've spent 20 years helping startups and SMEs grow, building marketing engines and leading teams. I
+                    bring
+                    strategy, product knowledge, and execution together.
+                    Full-stack development is my latest skill. </p>
+                <p>My approach is practical and user-focused. Whether it's designing a website, mapping a workflow, or
+                    automating processes, I combine business insight, UX thinking, and technical skills to build things
+                    that
+                    work.
+                <p>I work with clients to create what fits their business goals and budget. </p>
+            </div>
         </section>
 
         <section id="Projects">
+            <div class="mediumcontainer">
             <h1>Built for business impact</h1>
             <p>Each project combines strategic thinking with hands-on development to solve real business challenges.</p>
-
+</div>
             <div class="projectleft">
                 <h2>WF basketball - Visual mockups</h2>
                 <p>Figma</p>
-            
-            <img src="./assets/images/FlamesBasketball.png">
+
+                <img src="./assets/images/FlamesBasketball.png">
             </div>
 
             <div class="projectmiddle">
@@ -69,55 +74,58 @@
 
         </section>
 
-        <section id="Contact">
+        <section id="Contact" class="smallcontainer">
             <h1>Let's Build Something Together</h1>
             <p>Ready to turn your idea into something real? Drop me a message.</p>
 
-            <form action="submit.php" method="post">
+            
+                <form class="enquiry" action="submit.php" method="post">
 
-                <label for="name">Fullname:</label>
-                <input type="text" name="name" id="name">
-                <br />
-                <Label for="company">Company</Label>
-                <input type="text" id="company" name="company">
-                <br />
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-                <br />
-                <label for="tel">Tel:</label>
-                <input type="tel" name="tel" id="tel">
-                <br />
-
-
-                <p><b>How can I help?</b></p>
-
-                <input type="radio" id="campaign delivery" name="services" value="Website design/redesign">
-                <label for="web design">Campaign Delivery</label><br />
-                <input type="radio" id="website build" name="services" value="Website build">
-                <label for="website build">Website build</label><br />
-                <input type="radio" id="marketing strategy" name="services" value="Marketing strategy">
-                <label for="marketing strategy">Marketing Strategy</label><br />
-
-                <label for="deadline">Project Deadline</label>
-                <input type="datetime-local">
-                <br /><br />
-                <label for="description">Provide a short description of your project.</label><br>
-                <textarea id="description" name="description" rows="4" cols="50"></textarea>
-
-                <br>
-                <input type="button" value="Request a chat">
+                    <label for="name">Fullname</label><br />
+                    <input type="text" name="name" id="name">
+                    <br />
+                    <Label for="company">Company</Label><br />
+                    <input type="text" id="company" name="company">
+                    <br />
+                    <label for="email">Email</label><br />
+                    <input type="email" name="email" id="email">
+                    <br />
+                    <label for="tel">Tel</label><br />
+                    <input type="tel" name="tel" id="tel">
+                    <br />
 
 
+                    <p>How can I help?</p>
 
+                    <input type="radio" id="webdesign" name="services" value="Website design/redesign">
+                    <label for="web design">Website Design</label><br />
+                    <input type="radio" id="website build" name="services" value="Website build">
+                    <label for="website build">Website build</label><br />
+                    <input type="radio" id="marketing strategy" name="services" value="Marketing strategy">
+                    <label for="marketing strategy">Marketing Strategy</label><br />
+
+                    <p>Project Deadline</p>
+                    <input type="datetime-local">
+                    <br />
+                    <p>Provide a short description of your project.</p>
+                    <textarea id="description" name="description"></textarea>
+
+                    <br />
+                    <input type="button" value="Request a chat">
+
+                </form>
+            
 
         </section>
     </Main>
 
     <footer>
-        <div>
-            <p>© 2025 Ana&#239;s B. All rights reserved.
+        <div class="leftbox">
+            <p class="small">© 2025 Ana&#239;s B. All rights reserved.
         </div>
-        <div>Follow me on <!-- Add linked in image --> </div>
+        <div class="rightbox">
+            <p class="small">Follow me on <!-- Add linked in image --></p>
+        </div>
     </footer>
 
 
