@@ -10,51 +10,57 @@
 </head>
 
 <body>
-    <navigation>
-        <li><a href="#About">About Me</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Let's talk</a></li>
-    </navigation>
-    <header>
-        <h1>Where Business Meets Code</h1>
-        <p>Full-stack development with 20 years of B2B marketing know-how behind every build.</p>
-        <img src="">
-    </header>
+    <div class="largecontainer">
+        <header>
 
-    <Main>
+            <nav>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Let's talk</a></li>
+            </nav>
+            <div class="leftbox">
+            <h1>Where Business Meets Code</h1>
+            <p>Full-stack development with 20 years of B2B marketing know-how behind every build.</p>
+            </div>
+            <div class="rightbox"><p>Image placeholder</p>
+            </div>
+        </header>
+    </div>
+    <Main class="insidepagecontainer">
         <section id="About">
-            <h1>A marketer who builds</h1>
+            <div class="leftbox">
+            <h1>A marketer who builds</h1></div>
+            <div class="rightbox">
             <p>My name is Ana&#239;s. I am a hands-on B2B marketer turned technical problem-solver.</p>
 
-            <p>With 20 years of experience helping startups and SMEs grow, from building marketing engines to leading
-                cross-functional teams, I've always worked at the intersection of strategy, product, and execution.
-                Now, I'm building on that foundation by adding full-stack development to my toolkit.</p>
-
-            <p>My approach is pragmatic and user-first.
-                I don't just make things look good—I make sure they work for the people using them.
-                Whether it's designing a website, mapping a workflow, or automating what slows teams down, I combine
-                commercial insight, UX instinct, and technical skills to build tools that deliver in the real world.</p>
-
-            <p>I collaborate with clients to create solutions that fit their business goals, work within their budget,
-                and are simple enough to manage without ongoing help.</p>
-
+            <p>I've spent 20 years helping startups and SMEs grow, building marketing engines and leading teams. I bring
+                strategy, product knowledge, and execution together.
+                Full-stack development is my latest skill. </p>
+            <p>My approach is practical and user-focused. Whether it's designing a website, mapping a workflow, or
+                automating processes, I combine business insight, UX thinking, and technical skills to build things that
+                work.
+            <p>I work with clients to create what fits their business goals and budget. </p>
+</div>
         </section>
 
         <section id="Projects">
-            <h1>Designed to Deliver</h1>
-            <div>
+            <h1>Built for business impact</h1>
+            <p>Each project combines strategic thinking with hands-on development to solve real business challenges.</p>
+
+            <div class="projectleft">
                 <h2>WF basketball - Visual mockups</h2>
                 <p>Figma</p>
-            </div>
+            
             <img src="./assets/images/FlamesBasketball.png">
+            </div>
 
-            <div>
+            <div class="projectmiddle">
                 <h2>Deepflow Massage - Website Redesign</h2>
                 <p>Fabrik.io</p>
                 <img src="./assets/images/DeepFlowMassage.PNG">
             </div>
 
-            <div>
+            <div class="projectright">
                 <h2>Firefinch Marketing - Website Build</h2>
                 <p>Webflow</p>
                 <img src="./assets/images/FirefinchMarketingWeb.PNG">
@@ -64,8 +70,9 @@
         </section>
 
         <section id="Contact">
-            <h1>Let's talk</h1>
+            <h1>Let's Build Something Together</h1>
             <p>Ready to turn your idea into something real? Drop me a message.</p>
+
             <form action="submit.php" method="post">
 
                 <label for="name">Fullname:</label>
