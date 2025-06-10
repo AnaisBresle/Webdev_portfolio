@@ -34,12 +34,6 @@ h1 {
     color: purple
 }
 
-h2 {
-    font-size: 1.45rem;
-    color: green;
-}
-
-
 
 header {
     background: rgb(0, 3, 29);
@@ -115,30 +109,31 @@ margin: 5rem auto;
 
 }
 
-
-.projectleft {
+.projectbox {
     display: inline-block;
-    width: 31%;
+    width: 30%;
     vertical-align: top;
-    margin-left: 2%;
+    margin-left: 0.25%;
     margin-top: 1.5rem;
+    border-radius: 1%;
+    box-shadow: 2px 2px 3px rgba(70, 61, 85, 0.4);
+    padding: 0.8rem;
 
 }
 
-.projectmiddle {
-    display: inline-block;
-    width: 31%;
-    vertical-align: top;
-    margin: 0 2%;
-    margin-top: 1.5rem;
+.projectbox h2 {
+    font-size: 1.4rem;
+    color: green;
+}
 
+.projectleft {
+   margin-right:0.5%;
+    
 }
 
 .projectright {
-    display: inline-block;
-    width: 31%;
-    vertical-align: top;
-    margin-top: 1.5rem;
+   margin-left: 0.5%;
+      
 }
 
 #Contact {
@@ -207,9 +202,14 @@ textarea {
     resize: vertical;
 }
 
-
+.socials{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
 
 footer {
+    width:100%;
     background-color: black;
     color: white;
     
