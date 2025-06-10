@@ -83,17 +83,18 @@ nav a:hover {
 
 .leftbox {
     display: inline-block;
-    width: 38%;
+    width: 40%;
     vertical-align: top;
 
 }
 
 .rightbox {
     display: inline-block;
-    width: 60%;
+    width: 59%;
     vertical-align: top;
     padding-top: 1.5rem;
 }
+
 
 #About{
 margin: 5rem auto;    
