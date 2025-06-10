@@ -1,6 +1,8 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .largecontainer {
@@ -13,7 +15,7 @@
 }
 
 .smallcontainer {
-    width:64%;
+    width: 60%;
     margin: auto;
 }
 
@@ -40,21 +42,36 @@ h2 {
 
 
 header {
-    background: #030303;
-    background: linear-gradient(180deg, rgba(3, 3, 3, 1) 0%, rgba(20, 21, 37, 1) 37%, rgba(34, 37, 66, 1) 77%);
+    background: rgb(0, 3, 29);
     color: white;
+    display: block;
 }
 
-nav {
+.sitetitle {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    padding: 1.2rem 0;
+}
+
+.coverimg {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+nav ul {
+
+    list-style: none;
     padding-top: 3rem;
-    margin-left: 70%;
-    width: 40%;
+    margin: 0;
+    text-align: center;
 }
 
 nav li {
-    display: inline;
-    background-color: transparent;
-    padding-left: 0.35rem;
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 nav a {
@@ -81,7 +98,7 @@ nav a:hover {
     display: inline-block;
     width: 60%;
     vertical-align: top;
-    padding-top:1.5rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -98,8 +115,8 @@ nav a:hover {
 .projectleft {
     display: inline-block;
     width: 31%;
-     vertical-align: top;
-     margin-left:2%;
+    vertical-align: top;
+    margin-left: 2%;
 
 }
 
@@ -114,69 +131,72 @@ nav a:hover {
 .projectright {
     display: inline-block;
     width: 31%;
- vertical-align: top;
+    vertical-align: top;
 }
 
 #Contact {
-text-align: center;
+    text-align: center;
     background-color: #f3f3f3;
     border-radius: 15px;
-   padding-top:1.7rem;
-   padding-bottom: 0.8rem;
-   margin-bottom:1.2rem;   
+    padding-top: 1.7rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
 }
 
 form.enquiry {
-  text-align: left;
-  margin: 0 auto;
-  width: 95%
+    text-align: left;
+    margin: 0 auto;
+    width: 95%
 }
 
-form.enquiry label, p {
+form.enquiry label,
+p {
     display: block;
     font-size: 0.9rem;
-    padding:0.3rem 0;
-    margin-top:1.2rem;
+    padding: 0.3rem 0;
+    margin-top: 1.2rem;
 }
 
-input[type=text], input[type=email], input[type=tel] {
- width: 80%;
-margin-left: 0;
- height: 1.5rem;
- border: 0px;
- border-radius: 4px;
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 80%;
+    margin-left: 0;
+    height: 1.5rem;
+    border: 0px;
+    border-radius: 4px;
 }
 
-input[type=radio]{
+input[type=radio] {
     display: inline;
 }
 
-input[type="datetime-local"]{
-border: 0px;    
-font-size: 0.8rem;
-color: goldenrod;
+input[type="datetime-local"] {
+    border: 0px;
+    font-size: 0.8rem;
+    color: goldenrod;
 }
 
 input[type=button] {
-  background-color: #aa0481;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  padding: 1rem 0.8rem;
-  text-decoration: none;
-  margin: 2rem auto;
-  cursor: pointer;
-  display:block;
+    background-color: #aa0481;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 1rem 0.8rem;
+    text-decoration: none;
+    margin: 2rem auto;
+    cursor: pointer;
+    display: block;
 }
 
 textarea {
-  width: 100%;
-  height: 5rem;
-  padding: 0.25rem;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  resize:vertical;
+    width: 100%;
+    height: 5rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 }
 
 
@@ -185,4 +205,3 @@ footer {
     background-color: black;
     color: white;
 }
-
