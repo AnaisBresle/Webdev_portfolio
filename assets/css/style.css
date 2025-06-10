@@ -15,7 +15,7 @@
 }
 
 .smallcontainer {
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
@@ -101,8 +101,12 @@ nav a:hover {
     padding-top: 1.5rem;
 }
 
+#About{
+margin: 5rem auto;    
+}
 
 #Projects {
+    margin: 2rem auto;  
     padding: 25px 0;
 }
 
@@ -117,6 +121,7 @@ nav a:hover {
     width: 31%;
     vertical-align: top;
     margin-left: 2%;
+    margin-top: 1.5rem;
 
 }
 
@@ -125,6 +130,7 @@ nav a:hover {
     width: 31%;
     vertical-align: top;
     margin: 0 2%;
+    margin-top: 1.5rem;
 
 }
 
@@ -132,6 +138,7 @@ nav a:hover {
     display: inline-block;
     width: 31%;
     vertical-align: top;
+    margin-top: 1.5rem;
 }
 
 #Contact {
