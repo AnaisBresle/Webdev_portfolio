@@ -144,6 +144,10 @@ nav a:hover {
 
 }
 
+.summary {
+font-size: 0.95rem;
+font-style: italic;
+}
 
 #Contact {
     text-align: center;
