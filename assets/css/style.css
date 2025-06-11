@@ -53,18 +53,25 @@ header {
 .coverimg {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
+    border-radius: 35%;
+    margin-top: 3rem;
 }
 
-nav ul {
+nav {
+    padding-top: 3rem;
+}
+
+nav ul,
+footer ul {
 
     list-style: none;
-    padding-top: 3rem;
     margin: 0;
     text-align: center;
 }
 
-nav li {
+nav li,
+footer li {
     display: inline-block;
     margin: 0 0.5rem;
 }
@@ -85,27 +92,29 @@ nav a:hover {
 .leftbox {
     display: inline-block;
     width: 40%;
-    vertical-align: top;
+    vertical-align: middle;
     font-size: 1.1rem;
+    margin-right: 1%;
 
 }
 
 .rightbox {
     display: inline-block;
-    width: 59%;
+    width: 58%;
     vertical-align: top;
     padding-top: 1.5rem;
     font-size: 1.1rem;
 }
 
 
-#About{
-margin: 5rem auto;    
+#About {
+    margin: 5rem auto;
 }
 
 #Projects {
-    margin: 2rem auto;  
+    margin: 2rem auto;
     padding: 25px 0;
+    width: 98%;
 }
 
 #Projects img {
@@ -117,7 +126,7 @@ margin: 5rem auto;
     display: inline-block;
     width: 30%;
     vertical-align: top;
-    margin-left: 0.25%;
+    margin-left: 0.5%;
     margin-top: 1.5rem;
     border-radius: 1%;
     box-shadow: 2px 2px 3px rgba(70, 61, 85, 0.4);
@@ -131,14 +140,10 @@ margin: 5rem auto;
 }
 
 .projectleft {
-   margin-right:0.5%;
-    
+    margin-right: 0.5%;
+
 }
 
-.projectright {
-   margin-left: 0.5%;
-      
-}
 
 #Contact {
     text-align: center;
@@ -151,14 +156,14 @@ margin: 5rem auto;
 
 form.enquiry {
     text-align: left;
-    margin:2.5rem auto;
+    margin: 2.5rem auto;
     width: 80%;
-   }
+}
 
-form.enquiry label{
-font-size: 0.9rem;
+form.enquiry label {
+    font-size: 0.9rem;
 
-} 
+}
 
 .block-label,
 p {
@@ -206,16 +211,22 @@ textarea {
     resize: vertical;
 }
 
-.socials{
-    width:25px;
-    height:25px;
+.socials {
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
 }
 
 footer {
-    width:100%;
+    width: 100%;
     background-color: black;
     color: white;
     display: inline-block;
-    
+
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+    font-size: 0.7rem;
 }
